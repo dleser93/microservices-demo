@@ -3,6 +3,8 @@ This project was the practical part of the online course "Master event-driven mi
 
 ## Project Overview:
 
+![alt text](https://github.com/dleser93/microservices-demo/blob/main/images/project_overview.png?raw=true)
+
 
 
 ## Running the Application:
