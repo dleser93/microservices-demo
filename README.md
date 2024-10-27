@@ -29,7 +29,8 @@ This project was the practical part of the online course "Master event-driven mi
 - Twitter Developer Account (If you are using twitter data for stream)
 
 ## Running the Application:
-- Please enter the correct credentials in twitter4j.properties file in twitter-to-kafka-service 
+- Clone the repo using ```git clone https://github.com/dleser93/microservices-demo.git```.
+- Enter the correct credentials in twitter4j.properties file in twitter-to-kafka-service 
 and enter your github password and url on application.yml file of config-server.
 - Then run ```mvn install -DskipTests``` command.
 - Then go to \docker-compose folder and run ```docker-compose up``` command to start the application.
