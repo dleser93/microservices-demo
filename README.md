@@ -3,12 +3,36 @@ This project was the practical part of the online course "Master event-driven mi
 
 ## Project Overview:
 
+### Implemented Microservice Patterns Are:
+- Externalized configuration with Spring Cloud Config
+- CQRS with Kafka and Elastic search
+- Api versioning for versioning of Rest APIs
+- Service Registration and Discovery with Spring Cloud and Netflix Eureka
+- Api Gateway with Spring Cloud Gateway
+- Circuit breaker with Spring Cloud Gateway and Resilience4j
+- Rate limiting with Spring Cloud Gateway and Redis to use Redis as the Rate limiter
+- Distributed tracing with SLF4J MDC, Spring Cloud Sleuth and Zipkin
+- Log aggregation with ELK stack (Elasticsearch, Logstash and Kibana)
+- Client side load balancing with Spring Cloud Load Balancer
+- Database per Service
+- Messaging between microservices using Kafka
+
+### Project Schema:
 ![alt text](https://github.com/dleser93/microservices-demo/blob/main/images/project_overview.png?raw=true)
 
-
+### Prerequisites:
+- Knowledge of Java
+- Basic knowledge of Spring Framework
+- Basic knowledge of Maven
+- Back-end development experience
+- Docker experience
+- Twitter Developer Account (If you are using twitter data for stream)
 
 ## Running the Application:
 - Please enter the correct credentials in twitter4j.properties file in twitter-to-kafka-service 
 and enter your github password and url on application.yml file of config-server
 - Then run mvn install -DskipTests command
 - Then run docker-compose up command in docker-compose folder
+
+- Then go to \docker-compose folder and run below command to run kafka cluster and twitter-to-kafka-service together
+  ```test```
