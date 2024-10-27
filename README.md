@@ -1,4 +1,9 @@
-# Running the application
+# Master event-driven microservices architecture with patterns using Spring boot, Spring cloud, Kafka and Elasticsearch
+
+## Project Overview:
+
+
+## Running the Application:
 - Please enter the correct credentials in twitter4j.properties file in twitter-to-kafka-service 
 and enter your github password and url on bootstrap.yml file of config-server
 - Then run mvn install -DskipTests command
